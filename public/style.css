@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.game {
+  width : 55vw;
+  height: 65%;
+  background-color: white;
+  color: black;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+}
+
+
+.playerControls {
+  position: absolute;
+  top: 0%;
+  left: 42%;
+  width: 200px;
+  height: 835px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.player {
+  width: 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
