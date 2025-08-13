@@ -8,7 +8,7 @@
   </head>
   <body>
     <div class="game">
-      <div class="player">
+      <div class="p player1 active">
         <div class="score">
           <h3>Player 1</h3>
           <h2 id="heldScore">0</h2>
@@ -20,11 +20,13 @@
       </div>
       <div class="playerControls">
         <button id="newGame" >New game</button>
-        <div class="images"></div>
-        <button class="rollDice">Roll Dice</button>
-        <button class="hold">Hold</button>
+        <div class="images">
+          <img src="/images/dice-1.png" alt="dice-1" id="dice" >
+        </div>
+        <button id="rollDice">Roll Dice</button>
+        <button id="hold">Hold</button>
       </div>
-      <div class="player">
+      <div class="p player2">
         <div class="score">
           <h3>Player 2</h3>
           <h2 id="heldScore">0</h2>

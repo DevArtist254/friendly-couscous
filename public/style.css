@@ -33,7 +33,7 @@ body {
   justify-content: space-evenly;
 }
 
-.player {
+.p {
   width: 50%;
 
   display: flex;
@@ -41,4 +41,15 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+
+  background-color: #999;
+}
+
+.p.active {
+  background-color: white;
+}
+
+img {
+  width: 100px;
+  height: 100px;
 }
